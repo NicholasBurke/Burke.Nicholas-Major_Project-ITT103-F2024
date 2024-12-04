@@ -1,0 +1,52 @@
+Purpose
+The purpose of the program is to manage the registration and enrollment of students in various courses. It also allows:
+
+Registering students and managing their details, adding new courses with IDS and fees, Enrolling students in courses, accepting of payments from students either to increase their balance or to pay for courses and viewing all enrolled students, course details, and individual student balances.
+
+How to Run the Program
+Python must be installed ensure a Python terminal is installed on your system.
+
+Save the provided script
+
+Open a terminal or directly run the .py file 
+
+Once the program is running. Enter the number for the action you want to do.
+
+
+Program Modifications
+Initial Setup: Defined Course and Student classes.
+
+Course Management: Added ability to add new courses.
+
+Student Registration: Added student registration, with unique student IDs defining the students.
+
+Enrollment: Students can enroll in courses but a minimum payment of 40% of the course fee and checking the student's balance is needed.
+
+
+Payments:
+
+Students can add money to their accounts and can pay for courses they are enrolled in.
+
+Balance Checking: Added feature to show a student's balance without allowing to add money in the same step.
+
+Admin Functions: Added features to show all courses, registered students, and students enrolled in specific courses.
+
+Error Handling: Used if-else conditions to handle common issues, such as duplicate entries and insufficient funds.
+
+Assumptions and Limitations
+
+Assumptions:
+
+All inputs (e.g., student IDs, course IDs, payment amounts) are entered correctly by the user.
+
+The user has basic knowledge of navigating the interface.
+
+Each course and student has a unique identifier.
+
+Limitations:
+
+It does not store data forever meaning that all the data is lost when the program exits.
+
+Error handling is basic and might not cover all areas.
+
+You cannot remove anything once a student is enrolled 
